@@ -47,34 +47,34 @@ nav_order: 1
   }
 </style>
 
-# Welcome to the PIFSC Data Archiving Guide
-This guide provides a step-by-step walkthrough of the entire data archiving process.
+# Welcome to PIFSC Mission App Manual
+This guide provides instructions and features for using the Mission App.
 
 <div class="card-container">
   <div class="info-card">
-    <h3>New to the Process?</h3>
-    <p>Get oriented by reviewing the key terms, and systems before you begin the workflow.</p>
-    <a href="{{ '/docs/The-Basics.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
+    <h3>New to the Mission App?</h3>
+    <p>Get oriented with some general background.</p>
+    <a href="{{ '/docs/Background.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
       Get Oriented
     </a>
   </div>
 
   <div class="info-card">
-    <h3>Ready to Begin?</h3>
-    <p>Jump directly into the Step 1 in the step-by-step of the full archival process.</p>
-    <a href="{{ '/docs/Step-1-Planning.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
-      Get Started
+    <h3>Need to get Connected?</h3>
+    <p>Connect for the first time or as a returning user.</p>
+    <a href="{{ '/docs/Connecting.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
+      Get Connected
     </a>
   </div>
 
-  <div class="info-card">
+  <!--<div class="info-card">
     <h3>Attending the Workshop?</h3>
     <p>Find all the relevant guides and materials specifically for the Archive Refresher & Workshop.</p>
     <a href="{{ '/docs/Archive-Refresher&Workshop.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
       Workshop Info
     </a>
-  </div>
-</div>
+  </div> <!--
+</div> 
 
 
 
