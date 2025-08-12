@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: false  # Disable bundler cache to prevent stale lockfile issues
+
+      - name: Remove old Gemfile.lock
+        run: rm -f Gemfile.lock
+
+      - name: Install dependencies clean
+        run: bundle install
+
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
