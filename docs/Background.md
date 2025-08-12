@@ -1,10 +1,10 @@
 ---
 layout: default
-title: The Basics - Key Terms
+title: Mission App Background
 nav_order: 2
 ---
 
-# The Basics: Key Terms & Systems
+# Mission App Background:
 
 Understanding these core concepts is the first step to a successful data archive.
 
