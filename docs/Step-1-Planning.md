@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Step 1 - Planning
-parent: Full Archive Workflow
+title: Connecting
+
 has_children: true
 nav_order: 1
 ---
 
-# Step 1: Planning
+# Get Connected
 
 Good archiving starts here! Your goal in this step is to map out your project's data plan *before* you begin collecting data.
 
