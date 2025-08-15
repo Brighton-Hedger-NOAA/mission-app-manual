@@ -5,6 +5,7 @@ nav_order: 1
 ---
 
 <style>
+
   /* Styles for the card layout */
   .card-container {
     display: flex;
@@ -14,9 +15,10 @@ nav_order: 1
     justify-content: center;
   }
 
-  .info-card {
-    flex: 1 1 300px; /* Flex-grow, flex-shrink, basis */
-    max-width: 350px;
+ 
+.info-card {
+  flex: 1 1 45%; 
+  max-width: 450px; 
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
@@ -47,34 +49,45 @@ nav_order: 1
   }
 </style>
 
-# Welcome to PIFSC Mission App Manual
-This guide provides instructions and features for using the Mission App.
+
+# Welcome to the NCRMP Mission App Manual
+ This guide provides instructions and features for using the Mission App.
 
 <div class="card-container">
   <div class="info-card">
-    <h3>New to the Mission App?</h3>
-    <p>Get oriented with some general background.</p>
-    <a href="{{ '/docs/Background.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
+    <h3>General Background</h3>
+    <p>Understand what the Mission App is and how it fits into the NCRMP data workflow.</p>
+    <center><a href="{{ '/docs/Background.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
       Get Oriented
-    </a>
+    </a></center>
   </div>
 
   <div class="info-card">
-    <h3>Need to get Connected?</h3>
-    <p>Connect for the first time or as a returning user.</p>
-    <a href="{{ '/docs/Connecting.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
+    <h3>Getting Started & Connected</h3>
+    <p>Help with installation, account setup, and getting connected.</p>
+    <center><a href="{{ '/docs/Connecting.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
       Get Connected
-    </a>
+    </a></center>
   </div>
 
-  <!--<div class="info-card">
-    <h3>Attending the Workshop?</h3>
-    <p>Find all the relevant guides and materials specifically for the Archive Refresher & Workshop.</p>
-    <a href="{{ '/docs/Archive-Refresher&Workshop.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
-      Workshop Info
-    </a>
-  </div> <!--
-</div> 
+  <div class="info-card">
+    <h3>Data Entry</h3>
+    <p>Walks through entering specific types of data.</p>
+    <center><a href="{{ '/docs/import-workflow/index.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
+      Start the Data Entry Process
+    </a></center>
+  </div>
+
+  <div class="info-card">
+    <h3>Troubleshooting</h3>
+    <p>Get solutions to common problems and learn what to do when things go wrong.</p>
+    <center><a href="{{ '/docs/troubleshooting/index.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
+      Solve a Problem
+    </a></center>
+  </div>
+</div>
+
+
 
 
 
