@@ -73,7 +73,7 @@ nav_order: 1
   <div class="info-card">
     <h3>Data Entry</h3>
     <p>Walks through entering specific types of data.</p>
-    <center><a href="{{ '/docs/import-workflow/index.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
+    <center><a href="{{ '/docs/Data-importing/index.html' | relative_url }}" class="btn btn-custom fs-5 mb-4 mb-md-0">
       Start the Data Entry Process
     </a></center>
   </div>
