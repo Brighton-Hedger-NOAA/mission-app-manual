@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CAU Data Entry
-parent: Archiving Tools
-nav_order: 1
+parent: Data Entry
+nav_order: 3
 ---
 
