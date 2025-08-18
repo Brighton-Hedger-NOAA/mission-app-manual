@@ -32,9 +32,16 @@ Before data can be entered, the GPS sites to be [uploaded]({{ '/docs/GPS-File-Co
   </div>
   <div class="card">
     <h3>CAU Data</h3>
-    <p>Special instructions for importing ....</p>
+    <p>Special instructions for entering CAU Data</p>
     <a href="{{ '/docs/CAU-Data.html' | relative_url }}" class="btn btn-custom">
       View CAU Workflow
+    </a>
+  </div>
+    <div class="card">
+    <h3>Carb Budget Data</h3>
+    <p>Special instructions for entering Carb Budget Data</p>
+    <a href="{{ '/docs/Carb-Budget-Data-Entry.html' | relative_url }}" class="btn btn-custom">
+      View Carb Budget Workflow
     </a>
   </div>
 </div>
