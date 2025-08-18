@@ -40,7 +40,7 @@ Before data can be entered, the GPS sites to be [uploaded]({{ '/docs/GPS-File-Co
     <div class="card">
     <h3>Carb Budget Data</h3>
     <p>Special instructions for entering Carb Budget Data</p>
-    <a href="{{ '/docs/Carb-Budget-Data-Entry.html' | relative_url }}" class="btn btn-custom">
+    <a href="{{ '/docs/Carb-Budget-Entry.html' | relative_url }}" class="btn btn-custom">
       View Carb Budget Workflow
     </a>
   </div>
