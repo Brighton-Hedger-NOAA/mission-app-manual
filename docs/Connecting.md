@@ -7,10 +7,8 @@ nav_order: 3
 
 
 # Getting Started and Connecting
-
-## <center>Navigate through by clicking below ↓ </center>
 ---
-## <center>Do you already have an account?</center>
+## <center>Do you already have an account set up?</center>
 
 
 <center><a href="{{ '/docs/Login.html' | relative_url }}" class="btn btn-custom fs-6 mb-4 mb-md-0">
